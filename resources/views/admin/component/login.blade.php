@@ -19,7 +19,7 @@
 
 </head>
 
-<body class="bg-gradient-info">
+<body class="bg-gradient-success">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4">
@@ -29,7 +29,7 @@
                         @include('admin.component.error')
 
                         <div class="text-center">
-                            <img src="{{asset('assets/img/logo.png')}}" width="150px">
+                            <img src="{{asset('assets/img/money.png')}}" width="150px">
                         </div>
 
                         <form class="user" action="{{route('proceed-login')}}" method="POST">
@@ -58,7 +58,7 @@
                                 </button>
                             </div>
                         </form>
-                        <br><center><span>Copyright &copy; {{date('Y')}} | Created by <a href='#' title='Namira' target='_blank'>Ical</a>
+                        <br><center><span>Copyright &copy; {{date('Y')}} | Created by <a href='#' title='FAIZAL ABDULLAH' target='_blank'>Faizal Abdullah</a>
                         </span></center>
 
                     </div>
