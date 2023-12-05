@@ -2,7 +2,7 @@
 @section('title','Dashboard')
 @section('content')
 <div class="row col-md-12">
-    <div class="col-xl-5 col-md-5 mb-4" data-aos="fade-up" data-aos-duration="500">
+    <div class="col-lg-4 col-md-3 mb-4" data-aos="fade-up" data-aos-duration="500">
         <a href="{{route('transaction.index',['income'])}}" style="text-decoration:none;">
         <div class="card border-left-primary shadow-sm h-100 py-2">
             <div class="card-body">
@@ -19,7 +19,7 @@
         </div>
         </a>
     </div>
-    <div class="col-xl-5 col-md-5 mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+    <div class="col-lg-4 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
         <a href="{{route('transaction.index',['expense'])}}" style="text-decoration:none;">
         <div class="card border-left-danger shadow-sm h-100 py-2">
             <div class="card-body">
@@ -38,7 +38,7 @@
         </div>
         </a>
     </div>
-    <div class="col-xl-5 col-md-5 mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+    <div class="col-lg-4 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
         <div class="card border-left-success shadow h-100 py-2">
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
