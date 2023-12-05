@@ -3,7 +3,7 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-left justify-content-left" href="#">
         <div class="sidebar-brand-icon">
-                <img width="30" src="{{asset('assets/img/favicon.ico')}}" />
+                <img width="30" src="{{asset('assets/img/money.ico')}}" />
         </div>
         <div class="sidebar-brand-text">{{App\Setting::where('slug','nama-toko')->get()->first()->description}}</div>
     </a>
