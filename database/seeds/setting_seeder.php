@@ -12,7 +12,7 @@ class setting_seeder extends Seeder
     public function run()
     {
         $faker = Faker\Factory::create();
-        $name=['Nama Toko','Alamat','Nomer Telepon','Email'];
+        $name=['Nama Perusahaan','Alamat','Nomer Telepon','Email'];
         $type=['text','text','text','text'];
         $description=[
             'Kasypj',
